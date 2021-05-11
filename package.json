@@ -1,0 +1,46 @@
+{
+  "name": "@xan105/userShellFolder",
+  "version": "1.0.0",
+  "description": "Windows user shell folders",
+  "type": "module",
+  "exports": {
+    "import": "./esm.js"
+  },
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=0.14"
+  },
+  "scripts": {
+    "lint": "npx eslint --ignore-path .gitignore ./**/*.{js,mjs}"
+  },
+  "keywords": [
+    "userShellFolder",
+    "shell",
+    "folder",
+    "constant",
+    "windows",
+    "registry"
+  ],
+  "author": {
+    "name": "Anthony Beaumont",
+    "email": "dev.xan105@outlook.be",
+    "url": "https://xan105.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xan105/node-usershellfolder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xan105/node-usershellfolder/issues"
+  },
+  "homepage": "https://github.com/xan105/node-usershellfolder#readme",
+  "dependencies": {
+    "regodit": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  }
+}
