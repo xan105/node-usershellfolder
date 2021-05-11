@@ -4,7 +4,7 @@ Install
 -------
 
 ```
-npm install @xan105/userShellFolder
+npm install @xan105/usershellfolder
 ```
 
 ⚠️ This module is only available as an ECMAScript module (ESM).
@@ -75,8 +75,8 @@ Usage example
 ```js
 
 // named export
-import * as userShellFolder from '@xan105/userShellFolder';
-import { user as userShellFolder } from '@xan105/userShellFolder';
+import * as userShellFolder from '@xan105/usershellfolder';
+import { user as userShellFolder } from '@xan105/usershellfolder';
 
 console.log(userShellFolder);
 
