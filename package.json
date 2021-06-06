@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Windows user shell folders",
   "type": "module",
-  "exports": {
-    "import": "./esm.js"
-  },
+  "exports": "./lib/esm.js",
   "os": [
     "win32"
   ],
