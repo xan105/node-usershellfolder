@@ -1,9 +1,14 @@
 {
   "name": "@xan105/usershellfolder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Windows user shell folders",
   "type": "module",
-  "exports": "./lib/esm.js",
+  "exports": {
+    ".": "./lib/esm.js",
+    "./system": "./lib/system.js",
+    "./user": "./lib/user.js",
+    "./common": "./lib/common.js"
+  },
   "os": [
     "win32"
   ],
@@ -36,7 +41,7 @@
   },
   "homepage": "https://github.com/xan105/node-usershellfolder#readme",
   "dependencies": {
-    "regodit": "^1.1.2"
+    "regodit": "^2.0.1"
   },
   "devDependencies": {
     "eslint": "^7.26.0"

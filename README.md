@@ -3,14 +3,12 @@ Windows user shell folders
 Install
 -------
 
-```
-npm install @xan105/usershellfolder
-```
-
-⚠️ This module is only available as an ECMAScript module (ESM).
+`npm install @xan105/usershellfolder`
 
 API
 ---
+
+⚠️ This module is only available as an ECMAScript module (ESM).
 
 ### system
 - temp
@@ -73,12 +71,13 @@ Usage example
 -------------
 
 ```js
-
-// named export
 import * as userShellFolder from '@xan105/usershellfolder';
-import { user as userShellFolder } from '@xan105/usershellfolder';
+console.log(userShellFolder.user.home);
 
-console.log(userShellFolder);
+import { user as folders } from '@xan105/usershellfolder';
+console.log(folders.home);
 
+import { home } from '@xan105/usershellfolder/user';
+console.log(home);
 ```
 
