@@ -3,6 +3,16 @@ About
 
 User shell folders.
 
+Example
+=======
+
+```js
+import folders from "@xan105/usershellfolder";
+const desktop = folders.user.desktop;
+//Win: D:\Desktop
+//Linux: ~/Desktop
+```
+
 Install
 =======
 

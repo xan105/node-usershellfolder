@@ -16,7 +16,9 @@
     "folder",
     "constant",
     "windows",
-    "registry"
+    "linux",
+    "registry",
+    "xdg"
   ],
   "author": {
     "name": "Anthony Beaumont",
