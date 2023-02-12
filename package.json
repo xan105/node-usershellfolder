@@ -34,10 +34,24 @@
     "url": "https://github.com/xan105/node-usershellfolder/issues"
   },
   "homepage": "https://github.com/xan105/node-usershellfolder#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/xan105"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/xan105"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/xan105"
+    }
+  ],
   "devDependencies": {
     "eslint": "^8.11.0"
   },
   "optionalDependencies": {
-    "regodit": "^2.1.0"
+    "regodit": "github:xan105/node-cgo-regodit#koffi"
   }
 }
