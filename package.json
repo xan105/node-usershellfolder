@@ -49,9 +49,9 @@
     }
   ],
   "devDependencies": {
-    "eslint": "^8.11.0"
+    "eslint": "^8.34.0"
   },
   "optionalDependencies": {
-    "regodit": "github:xan105/node-cgo-regodit#koffi"
+    "regodit": "^2.2.0"
   }
 }
