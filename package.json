@@ -1,6 +1,6 @@
 {
   "name": "@xan105/usershellfolder",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "User shell folders",
   "type": "module",
   "exports": "./lib/index.js",
