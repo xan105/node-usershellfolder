@@ -1,3 +1,3 @@
-import folders from "../lib/index.js";
+import { folders } from "../lib/index.js";
 
-console.log(folders);
+console.dir(folders, { depth: null });

@@ -4,11 +4,14 @@
   "description": "User shell folders",
   "type": "module",
   "exports": "./lib/index.js",
+  "files": [
+    "/lib"
+  ],
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
-    "lint": "npx eslint --ignore-path .gitignore \"./**/*.{js,mjs}\""
+    "lint": "eslint \"./lib/**/*.{js,mjs}\""
   },
   "keywords": [
     "userShellFolder",
@@ -17,7 +20,8 @@
     "windows",
     "linux",
     "registry",
-    "xdg"
+    "xdg",
+    "env"
   ],
   "author": {
     "name": "Anthony Beaumont",
@@ -48,9 +52,9 @@
     }
   ],
   "devDependencies": {
-    "eslint": "^8.34.0"
+    "eslint": "^8.55.0"
   },
   "optionalDependencies": {
-    "regodit": "^2.3.0"
+    "regodit": "^2.4.0"
   }
 }

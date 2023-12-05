@@ -7,10 +7,12 @@ Example
 =======
 
 ```js
-import folders from "@xan105/usershellfolder";
-const desktop = folders.user.desktop;
-//Win: D:\Desktop
-//Linux: ~/Desktop
+import { folders } from "@xan105/usershellfolder";
+
+const path = folders.user.desktop;
+console.log(path);
+//Win: C:\Users\Xan\Desktop
+//Linux: /home/Xan/Desktop
 ```
 
 Install
@@ -20,17 +22,18 @@ Install
 npm install @xan105/usershellfolder
 ```
 
-
 API
 ===
 
 ⚠️ This module is only available as an ECMAScript module (ESM).
 
-## Default export
+## Named export
 
-### Windows
+### `const folders = object`
 
-On Windows return an obj as the following:
+#### Windows
+
+On Windows return an object as the following:
 
 ```js
 {
@@ -60,9 +63,9 @@ On Windows return an obj as the following:
 }
 ```
 
-### Linux
+#### Linux
 
-On Linux return an obj as the following:
+On Linux return an object as the following:
 
 ```js
 {
@@ -82,3 +85,7 @@ On Linux return an obj as the following:
   }
 }
 ```
+
+## Default export
+
+Alias to `const folders` for backward compatibility
