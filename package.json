@@ -56,5 +56,8 @@
   },
   "optionalDependencies": {
     "regodit": "^2.4.0"
+  },
+  "dependencies": {
+    "@xan105/is": "^2.10.1"
   }
 }

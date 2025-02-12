@@ -86,6 +86,25 @@ On Linux return an object as the following:
 }
 ```
 
+### expand(string: string, map?: object = process.env) string
+
+Expand replaces `%VAR%` in the string based on the mapping object. <br />
+If no mapping object is provided then it uses `process.env`.
+
+Example:
+
+```js
+import { expand, folders } from "@xan105/usershellfolder";
+
+expand("%DOCUMENTS%", folders.user); //C:\\Users\\Xan\\Documents
+expand("%APPDATA%"); //C:\\Users\\Xan\\AppData
+
+expand("%USER%", { USER: "foo" }) //foo
+expand("%USER%", { user: "foo" }) //foo
+
+expand("%USER%", { FOO: "bar" }) //%USER%
+```
+
 ## Default export
 
 Alias to `const folders` for backward compatibility
