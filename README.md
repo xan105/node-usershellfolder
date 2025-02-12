@@ -86,7 +86,7 @@ On Linux return an object as the following:
 }
 ```
 
-### expand(string: string, map?: object = process.env) string
+### `expand(string: string, map?: object = process.env) string`
 
 Expand replaces `%VAR%` in the string based on the mapping object. <br />
 If no mapping object is provided then it uses `process.env`.
